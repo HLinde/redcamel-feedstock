@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: redcamel
-  version: "0.1.7"
+  version: "0.1.8"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/redcamel-${{ version }}.tar.gz
-  sha256: 1f292762cf9ba730aa0d53346dd9feba17a3cff22dcb8c267cc5d17558989066
+  sha256: 12f26ebaf20423c1840bca99681735e9fe4f68ad678bbd39eeef4785ba99aa20
 
 build:
   number: 0
@@ -54,10 +54,10 @@ about:
   summary: GUI tool to simulate Reaction Microscope detector images.
   license: GPL-3.0-or-later
   license_file:
-  - LICENSES/
-  - "REUSE.toml"
-  - "CITATION.cff"
+    - LICENSES/
+    - "REUSE.toml"
+    - "CITATION.cff"
 
 extra:
   recipe-maintainers:
-  - HLinde
+    - HLinde
