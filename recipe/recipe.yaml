@@ -3,7 +3,6 @@ schema_version: 1
 context:
   name: redcamel
   version: "0.1.10"
-  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
