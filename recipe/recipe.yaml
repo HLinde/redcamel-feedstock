@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: redcamel
-  version: "0.1.9"
+  version: "0.1.10"
   python_min: "3.11"
 
 package:
@@ -37,8 +37,8 @@ requirements:
     - matplotlib-base >=3.7
     - numba >=0.65
     - numpy >=1.2
-    - plopp >=25.11,<26
-    - scipp >=25.11,<26
+    - plopp >=26.3, <27
+    - scipp >=25.12, <27
     - scipy >=1.17,<2
 
 tests:
