@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/redcamel-${{ version }}.tar.gz
-  sha256: b13d064904deddbaf35b8028f6e60d01a876de6274563f3e6c9f8d697f9fb1dc
+  sha256: 4319b544f57186ede64a2fd0113405a4af1b2ec6cc27fc1d42ab747014727470
 
 build:
   number: 0
